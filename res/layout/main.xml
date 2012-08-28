@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+    android:background="@drawable/menuback"
+    android:padding="35dip">
+    
+		<LinearLayout
+				android:orientation="vertical"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:layout_gravity="center" >
+				
+		    
+			<TextView
+			    android:id="@+id/text_status"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:scrollHorizontally="true"
+			    android:layout_gravity="left"
+			    android:paddingTop="100dip"
+			    android:layout_marginBottom="7dip"
+			    />
+		    <EditText
+		        android:id="@+id/status"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content" 
+		        android:background="@drawable/bitmap"
+		        android:text="@string/label_status"
+		        android:textColor="#ffa2741d"
+				>
+				
+		        <requestFocus />
+		    </EditText>
+		    <ImageButton
+		        android:layout_marginTop="15dip"
+				android:id="@+id/update_button"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/selector"
+				android:layout_gravity="center"
+				
+				/>
+		    <TextView
+			    android:id="@+id/text_fbt"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:scrollHorizontally="true"
+			    android:layout_gravity="left"
+			    android:background="#ff00ff00"
+			    android:layout_marginBottom="7dip"
+			    />
+		    <TextView
+			    android:id="@+id/text_fbt2"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:scrollHorizontally="true"
+			    android:layout_gravity="left"
+			    android:background="#ffff0000"
+			    android:layout_marginBottom="7dip"
+			    />
+</LinearLayout>
+	
+			
+</LinearLayout>

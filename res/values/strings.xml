@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SocWidActivity!</string>
+    <string name="app_name">SocialWithdrawal</string>
+    <string name="update_status">Update Status</string>
+	<string name="label_status">Apa yang anda pikirkan ?</string>
+</resources>
